@@ -1,0 +1,17 @@
+---
+name: Cosmetic
+version: 1.0.0
+main: Nyrok\Cosmetic\Main
+api: [4.0.0]
+author: Nyrok
+
+commands:
+  cosmetic:
+    description: Ouvrir le menu des cosmétiques
+    aliases: [cosmetique]
+    permission: cosmetic
+
+permissions:
+  cosmetic:
+    default: true
+...
